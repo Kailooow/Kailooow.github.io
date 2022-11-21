@@ -1,0 +1,142 @@
+/* Navbar*/
+
+#navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+.navbar-brand {
+    color: #53c41e;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.navbar-brand img {
+    height: 2.8rem;
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #53c41e;
+    letter-spacing: 0.0625em;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(39, 124, 74);
+}
+
+
+/*Header*/
+header.header {
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.header-subheading {
+    margin-top: -14em;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", "Segoe UI", Roboto, Arial, sans-serif;
+}
+.header-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+@media (min-width: 540px) {
+    header.header {
+        padding-bottom: 12.5rem;
+    }
+    .header-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+        margin-top: -15em;
+    }
+    .header-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* HTML des sections */
+
+.section {
+    padding: 6rem 0;
+}
+.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4rem;
+}
+
+/* Téléphonie */
+
+.mobile-text {
+    text-align: center;
+}
+
+.mobile-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.mobile-subheading {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Equipe */
+
+.team-text {
+    text-align: center;
+}
+
+.team-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.team-subheading {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.member img {
+    width: 12rem;
+    height: 15rem;
+    border: 0.3rem solid #53c41e;
+}
+
+/* À propos */
+
+.about-section img {
+    border-radius: 4%;
+    padding-bottom: 6em;
+}
+
+.about-section {
+    text-align: center;
+}
