@@ -6,7 +6,7 @@
     background-color: #fff;
 }
 .navbar-brand {
-    color: #53c41e;
+    color: #ffffff;
     font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 0.06em;
@@ -18,8 +18,9 @@
 .navbar-nav .nav-item .nav-link {
     font-family: "Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
     font-size: 0.95rem;
-    color: #53c41e;
-    letter-spacing: 0.0625em;
+    color: #000000;
+    letter-spacing: 0.1em;
+    position: absolute;
 }
 .navbar-nav .nav-item .nav-link:hover {
     color: rgb(39, 124, 74);
@@ -30,14 +31,13 @@
 header.header {
     padding-bottom: 6rem;
     text-align: center;
-    color: #fff;
-    background-attachment: scroll;
+    color: black;
     background-position: center center;
     background-size: cover;
 }
 .header-subheading {
-    margin-top: -14em;
-    font-size: 1.5rem;
+    margin-top: 2px;
+    font-size: 1.8rem;
     font-style: italic;
     line-height: 1.5rem;
     margin-bottom: 25px;
@@ -52,20 +52,21 @@ header.header {
 
 @media (min-width: 540px) {
     header.header {
-        padding-bottom: 12.5rem;
+        padding-bottom: 10rem;
+        margin-top: 2rem;
     }
     .header-subheading {
-        font-size: 2.25rem;
+        font-size: 2.8rem;
         font-style: italic;
         line-height: 2.25rem;
-        margin-bottom: 2rem;
-        margin-top: -15em;
+        margin-bottom: 0rem;
+        margin-top: -35em;
     }
     .header-heading {
         font-size: 4.5rem;
         font-weight: 700;
         line-height: 4.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 80rem;
     }
 }
 
@@ -73,6 +74,7 @@ header.header {
 
 .section {
     padding: 6rem 0;
+    text-align: center;
 }
 .section-heading {
     font-size: 2.5rem;
